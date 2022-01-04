@@ -110,7 +110,7 @@ async def about_cb(c, m):
     # creating buttons
     buttons = [
         [
-            InlineKeyboardButton('Home 🏕', callback_data='home'),
+            InlineKeyboardButton('Home 🏕', callback_data='homes'),
             InlineKeyboardButton('Help 💡', callback_data='help')
         ],
         [
